@@ -1,5 +1,4 @@
 import './App.css'
-import computerImg from './assets/computer.png';
 import HeaderClient from './components/HeaderClient/index';
 import ButtonPrimary from './components/ButtonPrimary/index';
 import ButtonInverse from './components/ButtonInverse/index';
