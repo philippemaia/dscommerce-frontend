@@ -8,9 +8,9 @@ import * as productService from "../../../services/product-service";
 export default function Catalog() {
   return (
     <main>
-      <section id="catalog-section" class="dsc-container">
+      <section id="catalog-section" className="dsc-container">
         <SearchBar />
-        <div class="dsc-catalog-cards dsc-mb20 dsc-mt20">
+        <div className="dsc-catalog-cards dsc-mb20 dsc-mt20">
 
           {
             productService.findAll().map(

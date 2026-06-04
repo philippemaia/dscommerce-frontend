@@ -19,7 +19,7 @@ export default function ProductDetails() {
         { 
           product && <ProductDetailsCard product={product} />
         }        
-        <div class="dsc-btn-page-container">
+        <div className="dsc-btn-page-container">
           <ButtonPrimary text="Comprar" />
           <Link to="/">
             <ButtonInverse text="Início" />

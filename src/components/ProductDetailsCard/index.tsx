@@ -8,15 +8,15 @@ type Props = {
 
 export default function ProductDetailsCard({product} : Props) {
   return (
-    <div class="dsc-card dsc-mb20">
-      <div class="dsc-product-details-top dsc-line-bottom">
+    <div className="dsc-card dsc-mb20">
+      <div className="dsc-product-details-top dsc-line-bottom">
         <img src={product.imgUrl} alt={product.name} />
       </div>
-      <div class="dsc-product-details-bottom">
+      <div className="dsc-product-details-bottom">
         <h3>R$ {product.price.toFixed(2)}</h3>
         <h4>{product.name}</h4>
         <p>{product.description}</p>
-        <div class="dsc-category-container">
+        <div className="dsc-category-container">
           {
             product.categories.map(item => (
                 <ProductCategory key={item.id} name={item.name}/>
