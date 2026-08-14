@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@eslint/js", "virtual:40db07d70f98bec5d1abdd24b17f96d72776da2e25c8e1922184fcb19f00c61f26a3a70a3ee3c729350c8efa81c0006579964877542b740168efe1960029eb06#npm:10.0.1"],\
+          ["@types/jwt-decode", "npm:3.1.0"],\
           ["@types/node", "npm:24.12.4"],\
           ["@types/qs", "npm:6.9.7"],\
           ["@types/react", "npm:19.2.16"],\
@@ -42,6 +43,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:40db07d70f98bec5d1abdd24b17f96d72776da2e25c8e1922184fcb19f00c61f26a3a70a3ee3c729350c8efa81c0006579964877542b740168efe1960029eb06#npm:0.5.2"],\
           ["globals", "npm:17.6.0"],\
           ["history", "npm:5.3.0"],\
+          ["jwt-decode", "npm:3.1.2"],\
           ["qs", "npm:6.11.0"],\
           ["react", "npm:19.2.7"],\
           ["react-dom", "virtual:40db07d70f98bec5d1abdd24b17f96d72776da2e25c8e1922184fcb19f00c61f26a3a70a3ee3c729350c8efa81c0006579964877542b740168efe1960029eb06#npm:19.2.7"],\
@@ -752,6 +754,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/jwt-decode", [\
+      ["npm:3.1.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-jwt-decode-npm-3.1.0-7f93d5cb7a-10c0.zip/node_modules/@types/jwt-decode/",\
+        "packageDependencies": [\
+          ["@types/jwt-decode", "npm:3.1.0"],\
+          ["jwt-decode", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/node", [\
       ["npm:24.12.4", {\
         "packageLocation": "../../.yarn/berry/cache/@types-node-npm-24.12.4-fb0c00261b-10c0.zip/node_modules/@types/node/",\
@@ -1362,6 +1374,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@eslint/js", "virtual:40db07d70f98bec5d1abdd24b17f96d72776da2e25c8e1922184fcb19f00c61f26a3a70a3ee3c729350c8efa81c0006579964877542b740168efe1960029eb06#npm:10.0.1"],\
+          ["@types/jwt-decode", "npm:3.1.0"],\
           ["@types/node", "npm:24.12.4"],\
           ["@types/qs", "npm:6.9.7"],\
           ["@types/react", "npm:19.2.16"],\
@@ -1375,6 +1388,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:40db07d70f98bec5d1abdd24b17f96d72776da2e25c8e1922184fcb19f00c61f26a3a70a3ee3c729350c8efa81c0006579964877542b740168efe1960029eb06#npm:0.5.2"],\
           ["globals", "npm:17.6.0"],\
           ["history", "npm:5.3.0"],\
+          ["jwt-decode", "npm:3.1.2"],\
           ["qs", "npm:6.11.0"],\
           ["react", "npm:19.2.7"],\
           ["react-dom", "virtual:40db07d70f98bec5d1abdd24b17f96d72776da2e25c8e1922184fcb19f00c61f26a3a70a3ee3c729350c8efa81c0006579964877542b740168efe1960029eb06#npm:19.2.7"],\
@@ -2065,6 +2079,22 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/json5-npm-2.2.3-9962c55073-10c0.zip/node_modules/json5/",\
         "packageDependencies": [\
           ["json5", "npm:2.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["jwt-decode", [\
+      ["npm:3.1.2", {\
+        "packageLocation": "../../.yarn/berry/cache/jwt-decode-npm-3.1.2-bf3ab26591-10c0.zip/node_modules/jwt-decode/",\
+        "packageDependencies": [\
+          ["jwt-decode", "npm:3.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../.yarn/berry/cache/jwt-decode-npm-4.0.0-4cd8e89909-10c0.zip/node_modules/jwt-decode/",\
+        "packageDependencies": [\
+          ["jwt-decode", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
