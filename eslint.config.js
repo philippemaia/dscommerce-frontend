@@ -16,6 +16,7 @@ export default defineConfig([
       reactRefresh.configs.vite,
     ],
     rules: {
+      "@typescript-eslint/no-var": "off",
       "@typescript-eslint/no-unsafe-function-type": "off",
       "@typescript-eslint/no-explicit-any": "off",
       "@typescript-eslint/no-unused-vars": "off",
